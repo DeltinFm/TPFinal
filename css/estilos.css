@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url(Poppins/Poppins-Regular.ttf);
+}
+
+.fontPoppinsReg {
+	font-family: "Poppins";
+}
+
+.logoEncabezado {
+	width: 100px;
+}
+
+.logosRedes {
+	width: 5rem;
+	height: 5rem;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	margin: 3rem;
+}
+
+li a,footer div p {
+	text-decoration: none;
+	font-size: 2rem; 
+	padding: 1rem;
+}
+
+.maxWith {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+#fondoPrincipal {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 4rem;
+}
+
+.padding {
+    padding: 2rem;
+}
+
+.ImgIndex {
+	height: 30rem;
+}
+
+.imgGaleria {
+	padding: 0.5rem;
+	width: 40rem;
+}
+
+.fontSizeParrafo {
+	font-size: 1.5rem;
+}
+
+h1 {
+	font-size: 4rem;
+	color: white;
+	padding: 2rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 30rem;
+	color: white;
+}
+
+.input {
+	width: 45rem;
+	height: 2rem;
+	border-radius: 0.5rem;
+	border: none;
+	margin-top: 1.5rem;
+}
+
+.divInput{
+	margin-bottom: 6rem;
+}
+
+textarea {
+	height: 30rem;
+	width: 60rem;
+	border-radius: 1rem;
+	border: none;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.botonesContacto {
+	width: 15rem;
+	font-size: 1.5rem;
+}
+
+.bgColorPrincipal {
+	background-color: #fbbf69;
+}
+
+.bgColorSecundario {
+	background-color: #f08589;
+}
+
+footer {
+	background-image: url(../assets/img/footer.png);
+	background-size: inherit;
+	height: 28rem;
+}
+
+.divRrssFooter {
+	background-image: url(../assets/img/pincelada.png);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
